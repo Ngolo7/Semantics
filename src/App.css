@@ -1,0 +1,110 @@
+.navigator {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 15vh;
+  padding: 20px;
+  margin: 10px;
+  background-color: rgb(70, 188, 129);
+  color: black;
+}
+
+.logo-text {
+  font-size: 5rem;
+  color: rgb(195, 26, 26);
+}
+
+.nav_links {
+  display: flex;
+  gap: 4rem;
+  list-style: circle;
+}
+
+.nav_a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  text-decoration-color: rgb(36, 22, 22);
+
+  .nav_a:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(36, 22, 22);
+    padding: 5px;
+    border-radius: 5px;
+  }
+}
+
+.about-me {
+  position: relative;
+  padding: 10px;
+  margin: 5px;
+  background-color: aliceblue;
+}
+
+.heading1 {
+  text-align: center;
+  font-size: 2rem;
+  color: blue;
+}
+
+.heading2 {
+  text-align: center;
+  font-size: 2rem;
+  color: rgb(125, 26, 195);
+}
+
+.paragraph1 {
+  font-size: 2rem;
+  text-align: center;
+  height: auto;
+}
+.achievement-container {
+  display: flex;
+  text-align: initial;
+  flex-direction: row;
+  gap: 2.5rem;
+  justify-content: space-around;
+}
+.article-container {
+  display: flex;
+  color: rgba(1, 23, 3, 0.885);
+  text-align: initial;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 2.5rem;
+  justify-content: space-around;
+}
+
+.sidebar {
+  float: right;
+  width: 10%;
+  background-color: rgb(61, 12, 194);
+  padding-right: 10px;
+}
+
+.heading3 {
+  text-align: center;
+  color: rosybrown;
+}
+
+.paragraph2 {
+  text-align: right;
+}
+
+.footer {
+  height: 10vh;
+  background-color: aqua;
+  padding: 15px;
+}
+
+.foot-navigator {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 10vh;
+  background-color: aqua;
+  color: black;
+}
+
+.nav-links-container {
+  align-items: center;
+}
